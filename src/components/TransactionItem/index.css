@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.transactionListItem {
+  list-style-type: none;
+  margin: 0px;
+  border: 2px solid lightgrey;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.deleteBtn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.deleteLogo {
+  width: 22px;
+}
+
+.sourceTyp {
+  margin-left: 30px;
+}
+
+.history {
+  width: 33px;
+}
+
+.title-data-container {
+  width: 30px;
+}
+
+.amount-data-container {
+  width: 35px;
+}
+
+.type-data-container {
+  width: 30px;
+}
+
+.amount {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.type {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.delete-button-container {
+  display: flex;
+  align-items: center;
+}

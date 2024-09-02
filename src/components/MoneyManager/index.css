@@ -1,0 +1,197 @@
+/* Write your CSS here */
+
+.bgContainer {
+  padding: 20px;
+}
+
+.profileContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.profileMessage {
+  margin-top: 0px;
+}
+
+.spanEL {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.listContainer {
+  margin-top: 10px;
+  padding-left: 0px;
+  border: none;
+}
+
+.transactionFormContainer {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid lightgrey;
+  width: 40%;
+  margin-right: 20px;
+}
+
+.transactionForm {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.labelItem {
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  color: #7e858e;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.textBox {
+  padding: 10px;
+  outline: none;
+  width: 80%;
+  border-radius: 6px;
+  border: 2px solid #d7dfe9;
+  margin-bottom: 10px;
+}
+
+.selectBox {
+  padding: 10px;
+  outline: none;
+  width: 80%;
+  border-radius: 6px;
+  border: 2px solid #d7dfe9;
+  margin-bottom: 10px;
+}
+
+.optionBg {
+  background-color:;
+}
+
+.btn {
+  padding: 10px;
+  width: 60px;
+  border-radius: 8px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  outline: none;
+  border: none;
+}
+
+.transactionsRecordContainer {
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50%;
+}
+
+.transactionsTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.transactionsTableHeaders {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid lightgrey;
+}
+
+.transactionsListContainer {
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+.headerBtn {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+
+.headers {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.title-heading-container {
+  width: 30px;
+}
+
+.amount-heading-container {
+  width: 35px;
+}
+
+.type-heading-container {
+  width: 30px;
+}
+
+@media (max-width: 767px) {
+  .profileContainer {
+    align-items: center;
+  }
+
+  .profileMessage {
+    text-align: center;
+  }
+
+  .accountDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addTransactionHeading {
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .historyHeading {
+    font-family: 'Roboto';
+    font-size: 18px;
+  }
+
+  .transactionFormContainer {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .transactionsRecordContainer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+  .transactionsContainer {
+    display: flex;
+  }
+
+  .transactionsRecordContainer {
+    flex-grow: 1;
+  }
+}

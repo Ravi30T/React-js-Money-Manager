@@ -1,0 +1,158 @@
+/* Write your CSS here */
+
+.listItem {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.balTitle {
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.balValue {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.yourBalanceContainer {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 13px;
+  margin-right: 15px;
+}
+
+.amountContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.yourIncomeContainer {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+  justify-content: space-around;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 13px;
+  margin-right: 15px;
+}
+
+.yourExpensesContainer {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+  justify-content: space-around;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 13px;
+}
+
+@media (max-width: 575px) {
+  .yourBalanceContainer {
+    width: 100%;
+  }
+
+  .listItem {
+    width: 100%;
+  }
+
+  .yourIncomeContainer {
+    width: 250px;
+  }
+
+  .yourExpensesContainer {
+    width: 250px;
+  }
+}
+
+/* small */
+
+@media ((min-width: 576px) and (max-width: 767px)) {
+  .logo {
+    height: 70px;
+  }
+
+  .listItem {
+    width: 100%;
+  }
+
+  .yourBalanceContainer {
+    width: 100%;
+  }
+
+  .yourIncomeContainer {
+    width: 350px;
+  }
+
+  .yourExpensesContainer {
+    width: 350px;
+  }
+}
+
+/* medium */
+
+@media ((min-width: 768px) and (max-width: 991px)) {
+  .logo {
+    height: 75px;
+  }
+
+  .listItem {
+    width: 32%;
+  }
+
+  .yourBalanceContainer {
+    width: 300px;
+  }
+
+  .yourIncomeContainer {
+    width: 300px;
+  }
+
+  .yourExpensesContainer {
+    width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo {
+    height: 80px;
+  }
+
+  .listItem {
+    flex-grow: 1;
+  }
+
+  .yourBalanceContainer {
+    width: 95%;
+  }
+
+  .yourIncomeContainer {
+    width: 95%;
+  }
+
+  .yourExpensesContainer {
+    width: 95%;
+  }
+
+  .balTitle {
+    font-size: 17px;
+  }
+
+  .balValue {
+    font-size: 22px;
+  }
+}
